@@ -6754,4 +6754,14 @@ button.close {
     display: none !important;
   }
 }
+
+#body-left
+{
+  float:left;
+}
+#body-right
+{
+  float:right;
+  width:70%;
+}
 /*# sourceMappingURL=bootstrap.css.map */
