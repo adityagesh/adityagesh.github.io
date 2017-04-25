@@ -4,6 +4,16 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -6764,4 +6774,38 @@ button.close {
   float:right;
   width:70%;
 }
+
+
+.horizontal_list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+  .horizontal_list li {
+    float: left;
+  }
+  .horizontal_list li:before {
+    content: none;
+  }
+  .horizontal_list li { 
+    padding-left: 0; 
+    text-indent: 0;
+  }
+
+  .header_menu_container {
+      height: 130px;
+      width: 699px;
+      float: left;
+    }
+.header_menu_container a {
+        font-family: 'Lato', Helvetica, sans-serif;
+      }
+ .main_container{
+  width: 960px;
+  margin: 0 auto;
+}
+#header {
+    height: 130px;
+    border-bottom: 1px solid #403F44;
+  }
 /*# sourceMappingURL=bootstrap.css.map */
