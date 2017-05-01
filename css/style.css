@@ -451,7 +451,7 @@ a:focus {
 .row.header {
   font-weight: 900;
   color: #ffffff;
-  background: #48DA9B;
+  background: #2eb279;
 }
 .row.green {
   background: #27ae60;
@@ -467,12 +467,36 @@ a:focus {
 }
 
 .cell {
-  padding: 6px 12px;
+  padding: 12px 30px;
   display: table-cell;
+  text-align:center;
+
 }
 @media screen and (max-width: 580px) {
   .cell {
     padding: 2px 12px;
     display: block;
   }
+}
+#backtop{
+position: fixed;
+    left: auto;
+    right: 35px;
+    top: auto;
+    bottom: 15px;
+    outline: none;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(49,79,96,0.84);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    z-index: 999999;
+    opacity: 1;
+    display: none;
 }
